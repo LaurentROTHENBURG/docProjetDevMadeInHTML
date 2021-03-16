@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+
+<meta charset="UTF-8">
+<title>Documentation Projet</title>
+<link rel="stylesheet" href="CSSPuissance4.css"
+
+
+<body>
+
+
+<header>
+    <h1>Documentation Projet de Développement</h1>
+    <!--    <img src="https://bibliojeu.net/images/puissance-4/puissance-4.jpg" alt="Photo du jeu puissance 4"/>-->
+</header>
+
+<h2>- Puissance 4 -</h2>
+<section id="haut"></section>
+
+<main>
+    <nav>
+
+        <ul>
+            </li> <a href="#Description">La Description</a></li><br/>
+            </li> <a href="#Conception">La Conception</a></li><br/>
+            </li> <a href="#Codage">Le Codage</a></li><br/>
+            </li> <a href="#Résultat">Le Résultat</a></li><br/>
+            </li> <a href="#Team">La Team</a></li><br/>
+            </li> <a href="#Video">La Vidéo</a></li><br/>
+        </ul>
+
+
+    </nav>
+
+    <div>
+        <section id=Description></section>
+
+        <p class="souligne">Description :</p>
+        <p>Il s'agit du second brief. le sujet est le suivant : c'est la crise sanitaire et votre entreprise vous
+            demande de réaliser un prototype de jeu de plateau en mode console avant de développer sa version en réseau.
+            L'objectif du brief est de programmer en JAVA</p>
+
+        <section id=Conception></section>
+        <p class="souligne">Conception :</p>
+
+        <p>Le projet s'est réalisé en mode pair <strong>programming</strong>
+            <a class="lienExterne" href="https://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me">(Lien vers
+                Wiki) </a>
+
+            .Avant le développement,il a été nécessaire de définir la structure du développement.
+            Différentes étapes logiques devaient réaliser le programme.
+            Lorsque la structure du programme a été posée, nous sommes passés au dévelopement en binome, en changeant
+            régulièrement de rôle,driver puis observeur
+            Initialisation des couleurs, Premier affichage du tableau, Fonctions de test de la grille, Test de la ligne,
+        </p>
+
+
+        <section id=Codage></section>
+        <p class="souligne">Codage :</p>
+        <p> Le code a été réalisé en JAVA. Le code met en place un tableau à deux dimensions, des boucles pour éditer le
+            tableau ainsi
+            que des conditions If.
+            Le code permet également de controler la saisie de l'utilisateur.
+            La complexité du code réside dans la procédure d'alignement des 4 jetons. </p><br/> <br/>
+
+        <em>Exemple de code permettant d'afficher le tableau: <br/></em>
+
+        <h3>for (int i=0; i< game.length; i++){ <br/>
+            System.out.print("| "); <br/>
+            for(int j=0; j< game[i].length; j++){ <br/>
+            if(game[i][j] == null){ <br/>
+            System.out.print(" " + " | "); <br/>
+            } <br/>
+            else { <br/>
+            //Affichage d'une croix ou d'un rond <br/>
+            switch (game[i][j]) { <br/>
+            case "1": <br/>
+            System.out.print(ANSI_RED + "X" + ANSI_RESET + " | "); break; <br/>
+            case "2" : <br/>
+            System.out.print(ANSI_YELLOW + "O" + ANSI_RESET + " | "); break; <br/>
+
+            } <br/>
+            //System.out.print(game[i][j] + " | "); <br/>
+            } <br/>
+            } <br/>
+            System.out.print("\n"); <br/>
+            } <br/>
+        </h3>
+        </p>
+
+        <section id=Résultat></section>
+        <p class="souligne"> Résultat :</p>
+
+
+        <p>
+            Le résultat est satisfaisant ! Le programme propose aux joueurs de choisir une colonne contenue dans le
+            tableau et
+            vérifie l'alignement des 4 jetons honrizontalement, verticalement, et en diagonale
+        </p>
+
+        <section id=Team></section>
+        <p class="souligne">Team :</p>
+        <p>Le développement a été réalisé avec Idir et l'aide de Jules.</p>
+
+        <section id=Vidéo></section>
+        <p class="souligne">Vidéo :</p>
+        <p>Allez, une petite vidéo pour se faire plaisir.
+            J'ai super galéré pour trouver la bonne synthaxe du Iframe jusqu'à je comprenne que You Tube
+            travaillait pour moi et me donnait l'info !!! pour centrer la vidéo ce n'a pas été simple grrrrrrr </p>
+
+        <iframe id="Video"
+                width="500" height="315"
+                src="https://www.youtube.com/embed/YgC7P4-PowA"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+
+        </iframe>
+    </div>
+
+    </div>
+
+
+</main>
+
+<menu>
+
+    <ul id="menu">
+        </li> <a href="#Description">La Description</a></li><br/>
+        </li> <a href="#Conception">La Conception</a></li><br/>
+        </li> <a href="#Codage">Le Codage</a></li><br/>
+        </li> <a href="#Résultat">Le Résultat</a></li><br/>
+        </li> <a href="#Team">La Team</a></li><br/>
+        </li> <a href="#Video">La Vidéo</a></li><br/>
+    </ul>
+
+</menu>
+
+<input class="bouton"
+       type="button"
+       value="Retour Up"
+       onclick=window.location.href='#haut'; value=Aller en haut/>
+
+
+<footer>
+    <p>
+        <a href="mailto:laurent.rothenburg@gmail.com">- Envoyez-moi un e-mail</a>
+        <a href="https://www.youtube.com/watch?v=YgC7P4-PowA"> ou retrouvez-nous sur notre chaîne YouTube -</a>
+    </p>
+
+</footer>
+
+</body>
