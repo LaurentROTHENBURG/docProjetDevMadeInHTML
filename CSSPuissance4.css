@@ -1,0 +1,175 @@
+header{
+    background-color: rgb(58, 142, 186);
+    outline-width: 0;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    line-height: 46px;
+    font-family: sans-serif;
+    --display: flex;
+    --flex-direction: row;
+    --background-image: url("https://bibliojeu.net/images/puissance-4/puissance-4.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top left; /* Le fond sera placé en haut à droite */
+}
+
+h2{
+    text-align: center;
+    color: rgb(58, 142, 186);
+    font-size: 27px;
+}
+
+h3 {
+    margin-left: 7%;
+    font-family: sans-serif;
+    color: grey;
+    font-size: 12px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#menu {
+    background-color: rgb(58, 142, 186);
+    color: white;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+}
+
+nav{
+    background-color: rgb(58, 142, 186);
+    color: white;
+    margin-left: 1em;
+    border-radius: 10px;
+    padding: 8px;
+    width: 15%;
+    box-shadow: 2px 2px 0px grey;
+    background-image: url("https://image.freepik.com/vecteurs-libre/composition-realiste-code-couleur-hacker-personne-cree-codes-pour-piratage-vol-illustration-vectorielle-information_1284-18005.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+   -- background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top left; /* Le fond sera placé en haut à droite */
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+div {
+    width: 80%;
+    --background-image: url("https://bibliojeu.net/images/puissance-4/puissance-4.jpg");
+    --background-attachment: fixed; /* Le fond restera fixe */
+    --background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    --background-position: top right; /* Le fond sera placé en haut à droite */
+   -- max-width: 50%;
+}
+
+em{
+    font-weight: bold;
+    margin-left: 7%;
+    color: grey;
+}
+
+.souligne {
+    text-decoration: underline;
+    color: rgb(58, 142, 186);
+}
+
+.lienExterne{
+    color: blue;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a {
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 18x;
+    line-height : 3;
+    }
+
+a:visited {
+    color: black;
+}
+
+a:focus {
+    border-bottom: 1px solid;
+    background: white;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: dimgrey;
+}
+
+a:active {
+    background: #265301;
+    color: #CDFEAA;
+}
+
+
+p{
+    width: 85%;
+    padding: 15px;
+    font-family: sans-serif;
+    color: grey;
+    font-size: 15px;
+    text-align: justify;
+    }
+
+#Video {
+    display:block;
+    width:480px;
+    margin: auto;
+}
+
+.bouton {
+    margin-left: 53%;
+    border: 0;
+    line-height: 2;
+    padding: 0 50px;
+    font-size:11px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 169, 220);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+footer>p{
+    background-color: darkgrey;
+    outline-width: 0;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: sans-serif;
+    margin-left: 6em;
+   --margin-right: 2em;
+    }
+
+@media screen and (max-width: 600px {
+    body {
+        color: red;
+    }
+}
