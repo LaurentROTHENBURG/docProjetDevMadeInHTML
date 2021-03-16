@@ -53,25 +53,12 @@ nav{
     box-shadow: 2px 2px 0px grey;
     background-image: url("https://image.freepik.com/vecteurs-libre/composition-realiste-code-couleur-hacker-personne-cree-codes-pour-piratage-vol-illustration-vectorielle-information_1284-18005.jpg");
     background-attachment: fixed; /* Le fond restera fixe */
-   -- background-repeat: no-repeat; /* Le fond ne sera pas répété */
     background-position: top left; /* Le fond sera placé en haut à droite */
 }
 
-img{
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-
 div {
     width: 80%;
-    --background-image: url("https://bibliojeu.net/images/puissance-4/puissance-4.jpg");
-    --background-attachment: fixed; /* Le fond restera fixe */
-    --background-repeat: no-repeat; /* Le fond ne sera pas répété */
-    --background-position: top right; /* Le fond sera placé en haut à droite */
-   -- max-width: 50%;
-}
+   }
 
 em{
     font-weight: bold;
@@ -89,16 +76,10 @@ em{
 }
 
 a {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
-}
-
-a {
     color: white;
     font-family: Calibri;
     font-weight: bold;
-    font-size: 18x;
+    font-size: 18px;
     line-height : 3;
     }
 
@@ -168,8 +149,61 @@ footer>p{
    --margin-right: 2em;
     }
 
-@media screen and (max-width: 600px {
-    body {
-        color: red;
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 8px;
+        line-height: 32px;
     }
-}
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 9px;
+    }
+
+    p {
+        font-size: 10px;
+        width: 80%;
+    }
+
+    a {
+        font-size: 10px;
+        line-height: 2;
+        margin-left: 2%;
+    }
+
+    #menu {
+        width: 4em;
+        margin-top: -2.5em;
+    }
+
+        nav {
+        margin-left: 2%;
+        border-radius: 8px;
+        padding: 2px;
+        width: 11%;
+        box-shadow: 2px 2px 0px grey;
+            }
+
+    em {
+        margin-left: 5%;
+        font-size: 11px;
+    }
+
+    div {
+        width: 78%;
+    }
+
+    #Video {
+        width: 300px
+    }
+
+    .bouton {
+        margin-left: 40%;
+        font-size: 9px;
+    }
+    }
+
+
